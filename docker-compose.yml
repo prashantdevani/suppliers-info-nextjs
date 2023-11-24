@@ -1,0 +1,14 @@
+version: '2.1'
+services:
+  nest-app:
+    build:
+      context: ./nest-service/
+    ports:
+      - "8000:8000"
+  next-app:
+    build:
+      context: ./next-frontend/
+    ports:
+      - "8080:8080"
+    depends_on:
+      - nest-app
