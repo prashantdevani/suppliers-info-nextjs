@@ -19,7 +19,7 @@ You can use them to speed up the implementation, or you can start from scratch c
 
 - You need to provide a backend application meant to expose an API (REST or GraphQL).
 - You need to provide a client application consuming the API exposed by the previous application and implement a UI.
-- The client should display the list of activities to the user and allow the user to search for activities by title by
+- The client should display the list of activities to the user and allow the user to search, sort and pagination (Please come up with some good frontend designs) for activities by title by
   providing an input field.
   - The fields to be displayed are:
     - title
