@@ -3,17 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8080",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 8080",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.10",
+    "@mui/material-nextjs": "^5.15.11",
+    "@mui/x-data-grid": "^6.19.5",
+    "ag-grid-react": "^31.1.1",
+    "axios": "^1.6.7",
+    "mongoose": "^8.2.0",
+    "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "react-icons": "^5.0.1"
   },
   "devDependencies": {
+    "@types/node": "20.11.20",
+    "@types/react": "18.2.57",
     "eslint": "^8",
     "eslint-config-next": "14.0.3"
   }

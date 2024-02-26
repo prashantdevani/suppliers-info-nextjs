@@ -1,9 +1,0 @@
-# Build stage
-FROM node:18-alpine as build
-
-# Run stage
-FROM node:18-alpine as run
-
-EXPOSE 8000
-
-CMD ["node", "dist/main.js"]
